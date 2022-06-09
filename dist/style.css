@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;0,800;1,100;1,300;1,500&family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Tag Selectors */
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+html,
+body {
+    height: 300vh;
+    font-family: 'Playfair Display';
+    background: #1d2025;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 6rem;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    /* font-family: 'Garamond', serif; */
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: thin;
+}
+
+hr {
+    background-color: none;
+    border-style: dotted none none;
+    border-color: #282e3d;
+    border-width: 18px;
+    width: 25%;
+    margin: 0 auto 0
+}
+
+
+/* text */
+
+.san-serif-sm {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar li a:hover {
+    color: teal;
+}
+
+
+/* Header  */
+
+.webgl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.header-text {
+    z-index: 1;
+    text-align: center;
+}
+
+.header {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+
+/* content1 */
+
+.content1 {
+    height: 40rem;
+    width: auto;
+}
+
+.content1 .content2 {
+    height: 40rem;
+    width: auto;
+}
+
+
+/* section {
+    height: 100vh
+} */
+
+
+/* scrolling arrow */
+
+.pointer {
+    text-align: center;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
